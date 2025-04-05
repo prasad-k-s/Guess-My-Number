@@ -87,6 +87,7 @@ document.querySelector('.check').addEventListener('click', () => {
     }
     displayScrore();
   }
+  document.querySelector('.guess').value = '';
 });
 
 //Reset the game
